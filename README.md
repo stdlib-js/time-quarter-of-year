@@ -33,7 +33,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-quarterOfYear = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/time-quarter-of-year@umd/browser.js' )
+quarterOfYear = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/time-quarter-of-year@v0.0.9-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -45,7 +45,7 @@ var quarterOfYear = require( 'path/to/vendor/umd/time-quarter-of-year/index.js' 
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/time-quarter-of-year@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/time-quarter-of-year@v0.0.9-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -104,7 +104,7 @@ q = quarterOfYear( 'apr' );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/time-quarter-of-year@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/time-quarter-of-year@v0.0.9-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
