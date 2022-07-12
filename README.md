@@ -31,7 +31,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import quarterOfYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-quarter-of-year@esm/index.mjs';
+import quarterOfYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-quarter-of-year@v0.0.9-esm/index.mjs';
 ```
 
 #### quarterOfYear( \[month] )
@@ -82,7 +82,7 @@ q = quarterOfYear( 'apr' );
 <body>
 <script type="module">
 
-import quarterOfYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-quarter-of-year@esm/index.mjs';
+import quarterOfYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-quarter-of-year@v0.0.9-esm/index.mjs';
 
 var months;
 var q;
