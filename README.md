@@ -35,112 +35,17 @@ limitations under the License.
 
 > Determine the quarter of the year.
 
-<section class="installation">
 
-## Installation
 
-```bash
-npm install @stdlib/time-quarter-of-year
-```
 
-Alternatively,
 
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
--   To use as a general utility for the command line, install the corresponding [CLI package][cli-section] globally.
 
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
 
-</section>
 
-<section class="usage">
-
-## Usage
-
-```javascript
-var quarterOfYear = require( '@stdlib/time-quarter-of-year' );
-```
-
-#### quarterOfYear( \[month] )
-
-Returns the quarter of the year.
-
-```javascript
-var q = quarterOfYear();
-// returns <number>
-```
-
-By default, the function returns the quarter of the year for the current month in the current year (according to local time). To determine the quarter for a particular month, provide either a month or a [`Date`][date-object] object.
-
-```javascript
-var q = quarterOfYear( new Date() );
-// returns <number>
-
-q = quarterOfYear( 4 );
-// returns 2
-```
-
-A `month` may be either a month's integer value, three letter abbreviation, or full name (case insensitive).
-
-```javascript
-var q = quarterOfYear( 4 );
-// returns 2
-
-q = quarterOfYear( 'April' );
-// returns 2
-
-q = quarterOfYear( 'apr' );
-// returns 2
-```
-
-</section>
-
-<!-- /.usage -->
-
-<section class="examples">
-
-## Examples
-
-<!-- eslint no-undef: "error" -->
-
-```javascript
-var quarterOfYear = require( '@stdlib/time-quarter-of-year' );
-
-var months;
-var q;
-var i;
-
-months = [
-    'January',
-    'February',
-    'March',
-    'April',
-    'May',
-    'June',
-    'July',
-    'August',
-    'September',
-    'October',
-    'November',
-    'December'
-];
-
-for ( i = 0; i < months.length; i++ ) {
-    q = quarterOfYear( months[ i ] );
-    console.log( 'The month of %s is in Q%d.', months[ i ], q );
-}
-```
-
-</section>
-
-<!-- /.examples -->
-
-* * *
 
 <section class="cli">
 
-## CLI
+
 
 <section class="installation">
 
@@ -158,7 +63,7 @@ npm install -g @stdlib/time-quarter-of-year-cli
 
 <section class="usage">
 
-### Usage
+## Usage
 
 ```text
 Usage: quarter-of-year [options] [month]
@@ -175,7 +80,7 @@ Options:
 
 <section class="examples">
 
-### Examples
+## Examples
 
 ```bash
 $ quarter-of-year
@@ -201,10 +106,9 @@ $ quarter-of-year 4
 
 <section class="related">
 
-* * *
-
 ## See Also
 
+-   <span class="package-name">[`@stdlib/time-quarter-of-year`][@stdlib/time-quarter-of-year]</span><span class="delimiter">: </span><span class="description">determine the quarter of the year.</span>
 -   <span class="package-name">[`@stdlib/time-day-of-year`][@stdlib/time/day-of-year]</span><span class="delimiter">: </span><span class="description">determine the day of the year.</span>
 
 </section>
@@ -224,7 +128,7 @@ This package is part of [stdlib][stdlib], a standard library for JavaScript and 
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
-#### Community
+### Community
 
 [![Chat][chat-image]][chat-url]
 
@@ -247,8 +151,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <section class="links">
 
-[npm-image]: http://img.shields.io/npm/v/@stdlib/time-quarter-of-year.svg
-[npm-url]: https://npmjs.org/package/@stdlib/time-quarter-of-year
+[npm-image]: http://img.shields.io/npm/v/@stdlib/time-quarter-of-year-cli.svg
+[npm-url]: https://npmjs.org/package/@stdlib/time-quarter-of-year-cli
 
 [test-image]: https://github.com/stdlib-js/time-quarter-of-year/actions/workflows/test.yml/badge.svg?branch=main
 [test-url]: https://github.com/stdlib-js/time-quarter-of-year/actions/workflows/test.yml?query=branch:main
