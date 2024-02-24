@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import quarterOfYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-quarter-of-year@deno/mod.js';
+import quarterOfYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-quarter-of-year@v0.2.1-deno/mod.js';
 ```
 
 #### quarterOfYear( \[month] )
@@ -88,7 +88,7 @@ q = quarterOfYear( 'apr' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import quarterOfYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-quarter-of-year@deno/mod.js';
+import quarterOfYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-quarter-of-year@v0.2.1-deno/mod.js';
 
 var months;
 var q;
