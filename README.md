@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import quarterOfYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-quarter-of-year@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/time-quarter-of-year/tags). For example,
+
+```javascript
 import quarterOfYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-quarter-of-year@v0.2.1-deno/mod.js';
 ```
 
@@ -88,7 +93,7 @@ q = quarterOfYear( 'apr' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import quarterOfYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-quarter-of-year@v0.2.1-deno/mod.js';
+import quarterOfYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-quarter-of-year@deno/mod.js';
 
 var months;
 var q;
