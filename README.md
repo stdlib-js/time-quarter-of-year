@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import quarterOfYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-quarter-of-year@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/time-quarter-of-year/tags). For example,
+
+```javascript
 import quarterOfYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-quarter-of-year@v0.2.2-esm/index.mjs';
 ```
 
@@ -93,7 +98,7 @@ q = quarterOfYear( 'apr' );
 <body>
 <script type="module">
 
-import quarterOfYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-quarter-of-year@v0.2.2-esm/index.mjs';
+import quarterOfYear from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-quarter-of-year@esm/index.mjs';
 
 var months;
 var q;
